@@ -1,0 +1,52 @@
+[
+http://apilayer.net/api/validate
+    ? access_key = YOUR_ACCESS_KEY
+    [...]
+    & format = 4  
+}
+               
+{
+  "valid":true,
+  "number":"",
+  "local_format":"",
+  "international_format":"",
+  "country_prefix":"",
+  "country_code":"",
+  "country_name":"",
+  "location":"",
+  "carrier":"",
+  "line_type":null
+}
+
+[...]
+"country_code": "",
+"country_name": "",
+"location": "",     
+[...]           
+{
+[...]
+"country_code": "",
+"country_name": "",
+"location": "",     
+[...]           
+                
+}
+{
+"AF": {
+"country_name": "Afghanistan",
+"dialling_code": "+93"
+},
+"ID": {
+"country_name": "Indonesia",
+"dialling_code": "+62"
+},
+"DZ": {
+"country_name": "Algeria",
+"dialling_code": "+213"
+},
+"AS": {
+"country_name": "American Samoa",
+"dialling_code": "+1"
+}
+                
+key = "http://apilayer.net/api/validate?access_key=" + config.key + "&number=" + number + "&country_code=&format=1"

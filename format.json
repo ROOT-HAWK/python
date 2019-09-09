@@ -1,0 +1,5 @@
+http://apilayer.net/api/validate
+    ? access_key = YOUR_ACCESS_KEY
+    [...]
+    & format = 1      
+                
